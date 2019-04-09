@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/client_parent/work/work",
+    "pages/index/index",
+    "pages/study/study",
+    "pages/news/news",
+    "pages/my/my",
+    "pages/login/login",
+
+    "pages/switch_roles/roles",
+    "pages/setting/setting",
+    "pages/registered/registered",
+    "pages/join_class/join_class",
+    "pages/join/join",
+
+    "pages/class_code/class_code",
+    "pages/tackphoto/tackphoto",
+    "pages/notification_details/notification_details",
+    "pages/add_subscription/add_subscription",
+    "pages/applications_join/join",
+    
+    "pages/choose_city_bj/choose_city_bj",
+    "pages/my_class/my_class",
+
+    
+    "pages/client_parent/notification/notification",
+    "pages/client_parent/work_detail/work_detail",
+
+    "pages/client_teacher/campus/campus",
+    "pages/client_teacher/my/my",
+    "pages/client_teacher/evaluation/evaluation",
+    "pages/client_teacher/message/message",
+    
+    "pages/client_teacher/work/work",
+    "pages/client_teacher/homework/homework",
+    "pages/client_teacher/choose/choose",
+    "pages/client_teacher/feedback/feedback",
+    "pages/client_teacher/performance/performance",
+
+    "pages/client_teacher/notification/notification",
+    "pages/client_teacher/send_notification/notification",
+    "pages/client_teacher/selected_receive/receive",
+    "pages/client_teacher/send_individual/individual",
+    "pages/client_teacher/send_class/send_class"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0fcff",
+    "navigationBarTitleText": "和云教育",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fffffb"
+  },
+  "tabBar": {
+    "color": "#818080",
+    "selectedColor": "#427516",
+    "borderStyle": "black",
+    "backgroundColor": "#F9F9F9",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "校园",
+        "iconPath": "image/xiaoyuan_default_parent.png",
+        "selectedIconPath": "image/xiaoyuan_check_parent.png"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "text": "学习",
+        "iconPath": "image/study_default_parent.png",
+        "selectedIconPath": "image/study_check_parent.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "image/information_default_parent.png",
+        "selectedIconPath": "image/information_check_parent.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "image/my_default_parent.png",
+        "selectedIconPath": "image/my_check_parent.png"
+      }
+    ]
+  }
+}

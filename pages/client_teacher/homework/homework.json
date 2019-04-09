@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "布置作业",
+  "usingComponents": {
+    "signal": "/components/signal/signal",
+    "takephoto": "/components/takephoto/takephoto",
+    "spro": "/components/success_prompt/success_prompt",
+    "signature": "/components/signature/signature"
+  }
+}

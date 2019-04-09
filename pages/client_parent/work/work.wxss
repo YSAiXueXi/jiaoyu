@@ -1,0 +1,21 @@
+.container{
+  width: 100%;
+  min-height: 100%;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.endview {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.endview text{
+  font-size: 24rpx;
+  color: #ff0;
+}

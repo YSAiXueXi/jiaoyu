@@ -1,0 +1,12 @@
+<!--pages/class_code/class_code.wxml-->
+<view class="line"></view>
+<view class="container">
+  <input placeholder='请输入班级吗' placeholder-class='placeholder'/>
+  <text class="tips">询问班主任获得班级码</text>
+  <!-- 加入 -->
+  <view class="complete" catchtap="complete">
+    <text>加入</text>
+  </view>
+</view>
+<!-- 返回上一级 -->
+<navigator open-type="navigateBack"></navigator>

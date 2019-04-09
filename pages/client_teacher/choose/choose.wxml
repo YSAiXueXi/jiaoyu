@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="items">
+    <view class="{{chooseItems[index] ? 'selected':''}}" data-text="{{index}}" catchtap="chooseAdd">
+      <text>{{itme}}</text>
+    </view>
+  </view>
+  <button type="button" bind:button="showHomeworkView" value="完成"></button>
+</view>

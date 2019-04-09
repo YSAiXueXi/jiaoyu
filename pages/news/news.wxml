@@ -1,0 +1,3 @@
+  <!--pages/news/news.wxml-->
+<news topicList="{{ topicList }}" searchValue="{{searchValue}}" articleList="{{articleList}}" articleIndex="{{articleIndex}}" articleSize="{{articleSize}}" noData=" {{noData}}" bind:searchInput="onSearchInput" bind:switchTopic="onSwitchTopic" bind:addSubscription="onAddSubscription">
+</news>

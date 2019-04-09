@@ -1,0 +1,52 @@
+/* pages/join_class/join_class.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #F6F5F4;
+}
+
+.module {
+  height: 120rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+
+.module image:first-child{
+  width: 70rpx;
+  height: 70rpx;
+  margin: 30rpx;
+}
+
+.module image:last-child {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  right: 30rpx;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content text:first-child {
+  font-size: 32rpx;
+  color: #333;
+}
+
+.content text:last-child {
+  font-size: 28rpx;
+  color: #9a9a9a;
+}
+
+.jump_over {
+  position: absolute;
+  right: 30rpx;
+  margin-top: 30rpx;
+  font-size:28rpx;
+  color: #000;
+}

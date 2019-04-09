@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.modules{
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f6f5f4;
+  border-bottom: 1rpx solid #c8c8c5;
+}
+
+.modules image {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0 20rpx 0 30rpx;
+}
+
+.modules text {
+  font-size: 32rpx;
+  color: #333;
+}
+
+/* 确定按钮 */
+.complete {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-top: 1rpx solid #C8C8C5;
+  background-color: #CACACC;
+}
+.complete image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.complete text {
+  margin-left: 30rpx;
+}

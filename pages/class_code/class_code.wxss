@@ -1,0 +1,54 @@
+page {
+  background-color: #F6F5F4;
+}
+
+.line {
+  border-top: 1rpx solid #e0e0e0;
+  width: 100%;
+  height: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F5F4;
+}
+
+.container input {
+  width: 100%;
+  height: 100rpx;
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+  border-top: 1rpx solid #e9e9e9;
+  border-bottom: 1rpx solid #e9e9e9;
+  background-color: #fff;
+}
+
+.tips {
+  font-size: 32rpx;
+  color: #656766;
+  margin-left: 36rpx;
+}
+
+.placeholder {
+  color: #CCCCCC;
+  font-size: 32rpx;
+}
+
+/* 完成按钮 */
+
+.complete {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-top: 1rpx solid #c8c8c5;
+  background-color: #cacacc;
+}

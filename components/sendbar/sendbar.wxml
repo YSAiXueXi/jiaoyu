@@ -1,0 +1,8 @@
+<view class="sendbar" style="bottom:{{sendBarBottom}}rpx">
+  <view class="input_text">
+  <input type="text" focus="{{true}}" bindfocus="onFocus" bindblur="onBlur" adjust-position="{{false}}" placeholder="来说两句" />
+  </view>
+  <view class="send_btn">
+    <text >发送</text>
+  </view>
+</view>
